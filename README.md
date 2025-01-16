@@ -1,7 +1,13 @@
-# Sobre el nuevo estándar de encapsulado de clave (KEM) post–cuántico![image](https://github.com/user-attachments/assets/920426a3-d1c5-4d45-9992-58752f94073c)
+# Sobre el nuevo estándar de encapsulado de clave (KEM) post–cuántico
+
+ ![image](https://github.com/user-attachments/assets/65c9aa92-a7f1-4685-9d1e-272ca69c054c)
+
+Realizado por:
+Gabriel Vacaro Goytia (gabvacgoy@alum.us.es)
+Ignacio Warleta Murcia (ignwarmur@alum.us.es)
 
 
-Descripción breve del trabajo o proyecto. Explica de manera general de qué trata el proyecto, cuál es su propósito y los objetivos que se buscan alcanzar.
+En este repositorio se encuentran todos los notebooks que se hacen referencia en el proyecto. En los cuales se han desarrollado tanto herramientas para trabajar con las primitivas matemáticas como implementaciones de problemas más complejos. Todo explicado desde un punto de vista didáctico, con el objetivo de un acercamiento más cercano a la materia.
 
 ## Contenido
 
@@ -13,7 +19,9 @@ Descripción breve del trabajo o proyecto. Explica de manera general de qué tra
 
 ## Descripción del Proyecto
 
-Este repositorio contiene el trabajo realizado para [especificar el propósito o asignatura]. El proyecto tiene como objetivo [explicar el objetivo general, como resolver un problema, realizar un análisis, crear una aplicación, etc.].
+Este repositorio contienen los anexos realizados para el TFG «Sobre el nuevo estándar de encapsulado de clave (KEM) post–cuántico» del departamento de matemáticas de la ETSII. Realizado por Gabriel Vacaro e Ignacio Warleta, alumnos de ingenieria del software.
+
+. El proyecto tiene como objetivo complementar el trabajo de documentación e investigación que se ha realizado sobre el nuevo estándar del NIST KYBER-KEM de una forma didáctica. De forma que se pueda entender completamente la primitiva matemática en la que se basa la mayoría de algoritmos de criptografia post-cuántica, los retículos. Así como los problemas en los que se sustentan estos algoritmos.
 
 Los elementos principales del trabajo incluyen:
 - [Descripción de los componentes principales del trabajo, como análisis de datos, desarrollo de software, resultados obtenidos, etc.]
@@ -25,4 +33,6 @@ Para ejecutar este proyecto, necesitas seguir estos pasos:
 
 1. Clona este repositorio en tu máquina local:
    ```bash
-   git clone https://github.com/tuusuario/nombre-del-repositorio.git
+   git clone https://github.com/ignaciowarleta/repo-TFG.git
+
+   
