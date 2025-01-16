@@ -2,9 +2,9 @@
 
  ![image](https://github.com/user-attachments/assets/65c9aa92-a7f1-4685-9d1e-272ca69c054c)
 
-Realizado por:
-Gabriel Vacaro Goytia (gabvacgoy@alum.us.es)
-Ignacio Warleta Murcia (ignwarmur@alum.us.es)
+Realizado por: <br>
+Gabriel Vacaro Goytia (gabvacgoy@alum.us.es) <br>
+Ignacio Warleta Murcia (ignwarmur@alum.us.es) <br>
 
 
 En este repositorio se encuentran todos los notebooks que se hacen referencia en el proyecto. En los cuales se han desarrollado tanto herramientas para trabajar con las primitivas matemáticas como implementaciones de problemas más complejos. Todo explicado desde un punto de vista didáctico, con el objetivo de un acercamiento más cercano a la materia.
