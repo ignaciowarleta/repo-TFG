@@ -79,12 +79,14 @@ Desde la interfaz de Jupyter Notebook, navega al directorio donde clonaste este 
   -Notebook sobre problemas relacionados con los anillos, como MLWE y RLWE, con implementaciones detalladas.<br>
 
 4. Ejecuta las celdas del notebook:
+   
 Sigue las instrucciones y explicaciones proporcionadas en el notebook. Cada celda contiene código y comentarios diseñados para facilitar la comprensión de los conceptos.
 
-5. Experimenta:
+6. Experimenta:
+   
 Modifica el código o los parámetros según sea necesario para explorar los conceptos más a fondo.
 
-## Contribucion
+## Contribución
 
 Si quieres contribuir a este proyecto, nos encantaría tu ayuda. Sigue estas pautas para colaborar:
 
