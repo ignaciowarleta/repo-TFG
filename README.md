@@ -1,11 +1,10 @@
 # Sobre el nuevo estándar de encapsulado de clave (KEM) post–cuántico
 
- ![image](https://github.com/user-attachments/assets/65c9aa92-a7f1-4685-9d1e-272ca69c054c)
+![image](https://github.com/user-attachments/assets/65c9aa92-a7f1-4685-9d1e-272ca69c054c)
 
-Realizado por: <br>
-Gabriel Vacaro Goytia (gabvacgoy@alum.us.es) <br>
-Ignacio Warleta Murcia (ignwarmur@alum.us.es) <br>
-
+**Realizado por:**  
+Gabriel Vacaro Goytia (gabvacgoy@alum.us.es)  
+Ignacio Warleta Murcia (ignwarmur@alum.us.es)  
 
 En este repositorio se encuentran todos los notebooks que se hacen referencia en el proyecto. En los cuales se han desarrollado tanto herramientas para trabajar con las primitivas matemáticas como implementaciones de problemas más complejos. Todo explicado desde un punto de vista didáctico, con el objetivo de un acercamiento más cercano a la materia.
 
@@ -15,26 +14,25 @@ En este repositorio se encuentran todos los notebooks que se hacen referencia en
 - [Instalación](#instalación)
 - [Uso](#uso)
 - [Contribución](#contribución)
-- [Licencia](#licencia)
 
 ## Descripción del Proyecto
 
-Este repositorio contienen los anexos realizados para el TFG «Sobre el nuevo estándar de encapsulado de clave (KEM) post–cuántico» del departamento de matemáticas de la ETSII. Realizado por Gabriel Vacaro e Ignacio Warleta, alumnos de ingenieria del software.
+Este repositorio contiene los anexos realizados para el TFG «Sobre el nuevo estándar de encapsulado de clave (KEM) post–cuántico» del departamento de matemáticas de la ETSII. Realizado por Gabriel Vacaro e Ignacio Warleta, alumnos de ingeniería del software.
 
-El proyecto tiene como objetivo complementar el trabajo de documentación e investigación que se ha realizado sobre el nuevo estándar del NIST KYBER-KEM de una forma didáctica. De forma que se pueda entender completamente la primitiva matemática en la que se basa la mayoría de algoritmos de criptografia post-cuántica, los retículos. Así como los problemas en los que se sustentan estos algoritmos.
+El proyecto tiene como objetivo complementar el trabajo de documentación e investigación que se ha realizado sobre el nuevo estándar del NIST KYBER-KEM de una forma didáctica. De forma que se pueda entender completamente la primitiva matemática en la que se basa la mayoría de algoritmos de criptografía post-cuántica, los retículos. Así como los problemas en los que se sustentan estos algoritmos.
 
 Los elementos principales del trabajo incluyen:
-- Notebook sobre LattPy, una biblioteca de Python desarrollada por Dylan Jones que nos sirve para introducir el concepto de retículo y aprender a trabajar con ellos en python.
-- Notebook sobre problemas relacionados con los retículos, donde se encuentran las implementaciones de los problemas CVP, SVP y LWE. Explicados paso a paso.
-- Notebook sobre problemas relacionados con los anillos, donde se encuentran las implementaciones de los problemas MLWE y RLWE. Explicados paso a paso.
+- Notebook sobre **LattPy**, una biblioteca de Python desarrollada por Dylan Jones que nos sirve para introducir el concepto de retículo y aprender a trabajar con ellos en Python.
+- Notebook sobre problemas relacionados con los retículos, donde se encuentran las implementaciones de los problemas **CVP**, **SVP** y **LWE**, explicados paso a paso.
+- Notebook sobre problemas relacionados con los anillos, donde se encuentran las implementaciones de los problemas **MLWE** y **RLWE**, explicados paso a paso.
 
 ## Instalación
 
 Para ejecutar este proyecto, necesitas seguir estos pasos:
 
-1. Instalar Miniconda en el siguiente enlace: https://docs.conda.io/projects/conda/en/stable/
+1. Instalar Miniconda en el siguiente enlace: [https://docs.conda.io/projects/conda/en/stable/](https://docs.conda.io/projects/conda/en/stable/)
 
-2. Iniciar el ejecutable AnacondaPrompt o una ventana de la terminal para crear un entorno virtual especifico:
+2. Iniciar el ejecutable **AnacondaPrompt** o una ventana de la terminal para crear un entorno virtual específico:  
    ```bash
    conda create -n <env-name>
 
@@ -60,6 +58,59 @@ Para ejecutar este proyecto, necesitas seguir estos pasos:
    ```bash
    git clone https://github.com/ignaciowarleta/repo-TFG.git
 
-8. Seleccionar desde la ventana de jupyter notebook el notebook del repositorio que se quiera usar.
+## Uso
 
+Una vez completados los pasos de instalación, puedes utilizar los notebooks de este repositorio para explorar y entender las primitivas matemáticas y los problemas relacionados con la criptografía post-cuántica. Sigue los pasos a continuación:
+
+1. Iniciamos el entorno virtual:
+   ```bash
+   conda activate <env-name>
+
+2. Iniciamos el servidor Jupyter Notebook:
+   ```bash
+   jupyter notebook
+
+3. Selecciona un notebook
+
+Desde la interfaz de Jupyter Notebook, navega al directorio donde clonaste este repositorio y selecciona el notebook que deseas explorar:<br>
+
+  -Notebook sobre LattPy para aprender sobre retículos y su implementación en Python.
+  -Notebook sobre problemas relacionados con los retículos, como CVP, SVP, y LWE, explicados paso a paso.
+  -Notebook sobre problemas relacionados con los anillos, como MLWE y RLWE, con implementaciones detalladas.
+
+4. Ejecuta las celdas del notebook:
+Sigue las instrucciones y explicaciones proporcionadas en el notebook. Cada celda contiene código y comentarios diseñados para facilitar la comprensión de los conceptos.
+
+5. Experimenta:
+Modifica el código o los parámetros según sea necesario para explorar los conceptos más a fondo.
+
+## Contribucion
+
+Si quieres contribuir a este proyecto, nos encantaría tu ayuda. Sigue estas pautas para colaborar:
+
+1. Haz un fork de este repositorio para tener tu propia copia.
    
+2. Crea una rama para tu contribución:
+   ```bash
+   git checkout -b feature/nuevamejora
+
+3. Realiza los cambios en la rama. Asegúrate de que sean claros y estén bien documentados.
+
+4. Haz commit de tus cambios:
+   ```bash
+   git commit -m "Añadir descripción breve del cambio"
+
+5. Sube tus cambios a tu repositorio remoto:
+   ```bash
+   git push origin feature/nueva-mejora
+
+6. Crea una pull request hacia este repositorio explicando detalladamente los cambios que has realizado.
+   
+
+
+
+
+
+
+
+
