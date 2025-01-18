@@ -3,10 +3,13 @@
 ![image](https://github.com/user-attachments/assets/65c9aa92-a7f1-4685-9d1e-272ca69c054c)
 
 **Realizado por:**  
-Gabriel Vacaro Goytia (gabvacgoy@alum.us.es)  
+[Gabriel Vacaro Goytia](https://github.com/Gabrielvcg) (gabvacgoy@alum.us.es)  
 [Ignacio Warleta Murcia](https://github.com/ignaciowarleta) (ignwarmur@alum.us.es)  
 
 En este repositorio se encuentran todos los notebooks que se hacen referencia en el proyecto. En los cuales se han desarrollado tanto herramientas para trabajar con las primitivas matemáticas como implementaciones de problemas más complejos. Todo explicado desde un punto de vista didáctico, con el objetivo de un acercamiento más cercano a la materia.
+
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/ignaciowarleta/repo-TFG/main)
+
 
 ## Contenido
 
