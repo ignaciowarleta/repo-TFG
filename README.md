@@ -89,7 +89,7 @@ Desde la interfaz de Jupyter Notebook, navega al directorio donde clonaste este 
    
 Sigue las instrucciones y explicaciones proporcionadas en el notebook. Cada celda contiene código y comentarios diseñados para facilitar la comprensión de los conceptos.
 
-6. Experimenta:
+5. Experimenta:
    
 Modifica el código o los parámetros según sea necesario para explorar los conceptos más a fondo.
 
