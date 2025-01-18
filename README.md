@@ -4,13 +4,14 @@
 
 **Realizado por:**  
 [Gabriel Vacaro Goytia](https://github.com/Gabrielvcg) (gabvacgoy@alum.us.es)  
-[Ignacio Warleta Murcia](https://github.com/ignaciowarleta) (ignwarmur@alum.us.es)  
+[Ignacio Warleta Murcia](https://github.com/ignaciowarleta) (ignwarmur@alum.us.es) 
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/ignaciowarleta/repo-TFG/main)
+![example workflow](https://github.com/ignaciowarleta/repo-TFG/actions/workflows/notebook-test.yml/badge.svg)
 
 En este repositorio se encuentran todos los notebooks que se hacen referencia en el proyecto. En los cuales se han desarrollado tanto herramientas para trabajar con las primitivas matemáticas como implementaciones de problemas más complejos. Todo explicado desde un punto de vista didáctico, con el objetivo de un acercamiento más cercano a la materia.
 
-Este repositorio ha sido desplegado en Binder y puede lanzarse pulsando el siguiente botón: <br>
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/ignaciowarleta/repo-TFG/main)
-![example workflow](https://github.com/ignaciowarleta/repo-TFG/actions/workflows/notebook-test.yml/badge.svg)
+Este repositorio ha sido desplegado en Binder y puede lanzarse sin instalar nada pulsando el botón "Binder" al inicio del README.
+
 
 
 ## Contenido
