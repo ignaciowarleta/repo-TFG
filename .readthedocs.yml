@@ -1,11 +1,9 @@
 version: 2
 python:
-  version: 3.8  # Puedes cambiarlo por la versión de Python que necesitas
+  version: 3.8  # Ajusta según la versión de Python que necesitas
   install:
-    - requirements: binder/requirements.txt  # Ruta al archivo requirements.txt
+    - requirements: binder/requirements.txt  # Ruta a tu archivo requirements.txt
 
-# Si deseas especificar el sistema operativo para la construcción (opcional)
 build:
-  os: ubuntu-20.04  # Puedes cambiar esto a la versión de sistema operativo que prefieras
-
-# Opcional: Si necesitas especificar más configuraciones de construcción, puedes agregarlas aquí
+  tools:
+    - jupyter-book  # Esto le indica a Read the Docs que use Jupyter Book para construir el proyecto
