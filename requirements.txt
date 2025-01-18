@@ -2,5 +2,4 @@ lattpy==0.7.7
 matplotlib==3.10.0
 numpy==2.2.1
 sphinx
-sphinx_rtd_theme
 npsphinx
