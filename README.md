@@ -10,6 +10,7 @@ En este repositorio se encuentran todos los notebooks que se hacen referencia en
 
 Este repositorio ha sido desplegado en Binder y puede lanzarse pulsando el siguiente botón: <br>
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/ignaciowarleta/repo-TFG/main)
+![example workflow](https://github.com/ignaciowarleta/repo-TFG/actions/workflows/notebook-test/badge.svg)
 
 
 ## Contenido
