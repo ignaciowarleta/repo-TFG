@@ -19,12 +19,12 @@ jobs:
       - name: Set up Python
         uses: actions/setup-python@v4
         with:
-          python-version: '3.10'  # Puedes cambiar la versión de Python si es necesario
+          python-version: '3.10'
 
       - name: Install dependencies
         run: |
-          python -m pip install --upgrade pip
-          pip install -r requirements.txt  # Instala las dependencias de tu proyecto
+          pip install --upgrade pip
+          pip install -r binder/requirements.txt  # Apunta al archivo requirements.txt dentro de binder
 
       - name: Install Jupyter and nbconvert
         run: |
@@ -32,7 +32,6 @@ jobs:
 
       - name: Run Jupyter Notebooks
         run: |
-          # Encuentra todos los notebooks (.ipynb) y ejecútalos
           for notebook in $(find . -type f -name "*.ipynb"); do
             echo "Running notebook: $notebook"
             jupyter nbconvert --to notebook --execute --inplace "$notebook" || exit 1
