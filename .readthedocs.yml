@@ -1,5 +1,11 @@
 version: 2
 python:
-  version: 3.8  # Ajusta a la versión que necesites
+  version: 3.8  # Puedes cambiarlo por la versión de Python que necesitas
   install:
     - requirements: binder/requirements.txt  # Ruta al archivo requirements.txt
+
+# Si deseas especificar el sistema operativo para la construcción (opcional)
+build:
+  os: ubuntu-20.04  # Puedes cambiar esto a la versión de sistema operativo que prefieras
+
+# Opcional: Si necesitas especificar más configuraciones de construcción, puedes agregarlas aquí
