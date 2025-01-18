@@ -8,7 +8,7 @@
 
 En este repositorio se encuentran todos los notebooks que se hacen referencia en el proyecto. En los cuales se han desarrollado tanto herramientas para trabajar con las primitivas matemáticas como implementaciones de problemas más complejos. Todo explicado desde un punto de vista didáctico, con el objetivo de un acercamiento más cercano a la materia.
 
-Este repositorio ha sido desplegado en Binder y puede usarse pulsando el botón:
+Este repositorio ha sido desplegado en Binder y puede usarse pulsando el botón: <br>
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/ignaciowarleta/repo-TFG/main)
 
 
