@@ -5,6 +5,6 @@ python:
     - requirements: binder/requirements.txt  # Ruta a tu archivo requirements.txt
 
 build:
-  os: ubuntu-20.04  # O usa otro valor como 'ubuntu-22.04'
   tools:
-    - jupyter-book  # Usamos Jupyter Book para construir el proyecto
+    jupyter-book:  # El nombre de la herramienta, como un diccionario
+      version: 0.11  # Versión de la herramienta (opcional)
