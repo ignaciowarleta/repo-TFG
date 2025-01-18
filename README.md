@@ -4,7 +4,8 @@
 
 **Realizado por:**  
 [Gabriel Vacaro Goytia](https://github.com/Gabrielvcg) (gabvacgoy@alum.us.es)  
-[Ignacio Warleta Murcia](https://github.com/ignaciowarleta) (ignwarmur@alum.us.es) 
+[Ignacio Warleta Murcia](https://github.com/ignaciowarleta) (ignwarmur@alum.us.es) <br>
+
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/ignaciowarleta/repo-TFG/main)
 ![example workflow](https://github.com/ignaciowarleta/repo-TFG/actions/workflows/notebook-test.yml/badge.svg)
 
