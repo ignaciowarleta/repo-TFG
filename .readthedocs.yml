@@ -1,0 +1,5 @@
+version: 2
+python:
+  version: 3.8  # Ajusta a la versión que necesites
+  install:
+    - requirements: binder/requirements.txt  # Ruta al archivo requirements.txt
