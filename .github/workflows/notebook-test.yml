@@ -32,14 +32,19 @@ jobs:
 
       - name: Run Jupyter Notebooks
         run: |
-          # Verificar qué archivos .ipynb existen en la raíz del repositorio
+          # Buscar archivos .ipynb en la raíz del repositorio
           echo "Buscando archivos .ipynb en la raíz del repositorio..."
-          find ./ -maxdepth 1 -type f -name "*.ipynb"  # Limitar a la raíz del repositorio
-          
+          notebooks=$(find ./ -maxdepth 1 -type f -name "*.ipynb")
+
+          # Verificar si se encontraron notebooks
+          if [ -z "$notebooks" ]; then
+            echo "No se encontraron archivos .ipynb en la raíz del repositorio."
+            exit 1
+          fi
+
           # Ejecutar los notebooks
-          for notebook in $(find ./ -maxdepth 1 -type f -name "*.ipynb"); do
-            echo "Running notebook: \"$notebook\""
-            jupyter nbconvert --to notebook --execute --inplace "$notebook" || exit 1
+          for notebook in $notebooks; do
+            echo "Ejecutando notebook: \"$notebook\""
+            # Usar comillas alrededor de la ruta del archivo
+            jupyter nbconvert --to notebook --execute --inplace "$notebook" || { echo "Error ejecutando el notebook $notebook"; exit 1; }
           done
-
-
